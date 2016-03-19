@@ -1,6 +1,6 @@
 import com.lihaoyi.workbench.Plugin._
 
-enablePlugins(ScalaJSPlugin)
+lazy val root = (project in file(".")).enablePlugins(ScalaJSPlugin)
 
 workbenchSettings
 
